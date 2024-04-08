@@ -40,6 +40,6 @@ const quickAccess = {
   divider: {},
 }
 
-export const menuStyle = defineMultiStyleConfig({
+export const menuTheme = defineMultiStyleConfig({
   variants: { basic, quickAccess },
 })

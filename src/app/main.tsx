@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
-import { BudgetPage } from '@/pages/BudgetPage'
+import { BudgetPage } from '@/pages'
 import { IndexPage } from '@/pages/IndexPage'
 import { ListPage } from '@/pages/ListPage'
 import { SettingsPage } from '@/pages/SettingsPage'

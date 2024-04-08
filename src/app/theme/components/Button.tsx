@@ -34,7 +34,7 @@ const md = defineStyle({
   padding: '8px 16px',
 })
 
-export const buttonStyle = defineStyleConfig({
+export const buttonTheme = defineStyleConfig({
   variants: { primary, outline },
   sizes: { md },
 })

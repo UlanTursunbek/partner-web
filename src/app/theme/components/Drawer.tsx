@@ -33,6 +33,6 @@ const basic = definePartsStyle({
   },
 })
 
-export const drawerStyle = defineMultiStyleConfig({
+export const drawerTheme = defineMultiStyleConfig({
   variants: { basic },
 })
