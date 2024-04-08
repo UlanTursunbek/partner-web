@@ -22,6 +22,18 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Fix code with eslint
+        uses: npm run fix:eslint
+
+      - name: Fix code with prettier
+        uses: npm run fix:prettier
+
+      - name: Check TS
+        uses: npm run check:ts
+
+      - name: Check eslint
+        uses: npm run check:eslint
+
       - name: Build project
         run: npm run build
 
