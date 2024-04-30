@@ -1,3 +1,4 @@
+import { BudgetChart } from './BudgetChart/Index'
 import { LayoutMain } from './Layout/Main'
 
-export { LayoutMain }
+export { BudgetChart, LayoutMain }

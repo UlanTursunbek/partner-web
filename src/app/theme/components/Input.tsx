@@ -14,4 +14,4 @@ const basic = definePartsStyle({
   },
 })
 
-export const inputStyle = defineMultiStyleConfig({ variants: { basic } })
+export const inputTheme = defineMultiStyleConfig({ variants: { basic } })
